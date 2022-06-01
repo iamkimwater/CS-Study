@@ -31,4 +31,4 @@ if __name__ == "__main__":
     for random_index in random_list:
         show_user_info(users, random_index)
 
-    # random.sample(users, 3)
+    # random.sample(users, 3) 사용은 어떻게 하는걸까?

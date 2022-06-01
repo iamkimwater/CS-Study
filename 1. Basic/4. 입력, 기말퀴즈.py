@@ -13,6 +13,7 @@ if __name__ == "__main__":
                 email = input("이메일을 입력하세요: ")
                 password = input("비밀번호를 입력하세요: ")
                 user_id = input("아이디를 입력하세요: ")
+                # file에 사용자 정보를 기록하고 읽어야 함
                 file = open("users.txt", "a", encoding="utf8")
                 file.write("email, password, ")
         except Exception as e:
