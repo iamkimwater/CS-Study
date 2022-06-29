@@ -91,14 +91,20 @@ class BinarySearchTree:
             node = node.left_child
         return node
 
+
+
+
+
+
     def delete(self, data):
         node = self.search(data)
 
         # 1. 아예 노드가 없는 경우
         if node is None:
             return
+
         # 2. 말단 노드를 삭제
-        if node.left_child is None and node.right_child is None:
+        if node.left_child is None and node.right_child is None:   # 왼쪽자식노드 오른쪽자식노드 모두 없는 경우
             if node == self.root_node:
                 self.root_node = None
                 return
@@ -106,11 +112,13 @@ class BinarySearchTree:
                 node.parent.left_child = None
             elif node.parent.right_child == node:
                 node.parent.right_child = None
+
+
         elif node.left_child is None:
             if node == self.root_node:
                 self.root_node = node.right_child
                 self.root_node.parent = None
-                return
+                returnㅠ
             if node.parent.left_child == node:
                 node.parent.left_child = node.right_child
                 node.right_child.parent = node.parent
@@ -128,6 +136,7 @@ class BinarySearchTree:
             elif node.parent.right_child == node:
                 node.parent.right_child = node.left_child
                 node.left_child.parent = node.parent
+
         # 4. 자식이 2개인 노드를 삭제
         else:
             min_node = self.find_min(node.right_child)

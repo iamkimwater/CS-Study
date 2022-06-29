@@ -1,3 +1,43 @@
+# 데이터를 효율적으로 사용하려면? : 자료구조
+
+## 메모리(RAM) = Random Access Memory
+
+* 임의 접근: 접근하는데 `O(1)`의 시간 복잡도 (**메모리는 임의 접근**을 하므로 메모리 공간 주소를 알면 `o(1)`의 시간 복잡도로 접근 가능)
+* 순차 접근: 접근하는데 `O(n)`의 시간 복잡도
+
+> * `1비트` = `스위치1개` = `on/off`
+> * `메모리1칸` = `1바이트` = `8비트` = `정보256개`
+> * `정수` = `메모리4칸` = `4바이트` = `32비트` = `정보2^32개` = `(-2^31) ... (0) ... (2^31 - 1)`
+
+## 파이썬의 모든 변수 = 참조변수 (파이썬의 모든 데이터는 객체이므로)
+
+|                 프로그래밍언어                  | 주소값 |
+|:----------------------------------------:|-------------------------|
+|                  `c++`                   | 주소를 저장하는 변수 / 포인터 변수 |
+| `c#` `python` `java` `javascript` | 주소를 저장하는 변수의 별명 / 참조 변수 |
+
+### 파이썬에서 주소값을 알아내는 법
+```python
+print(id(1))
+```
+
+
+## 기본자료구조: 구현에 집중
+  1. `배열(array)` (동적 / 정적)
+  2. `링크드리스트` (싱글리 / 더블리)
+  3. `해쉬테이블`
+  4. `트리`
+  5. `그래프`
+
+## 추상자료구조: 기능에 집중 / 기본자료구조로 구현<br>
+> 실제 프로그래밍을 할 때에는 기본 자료구조가 아니라 추상 자료형을 활용해서 생각하는게 실제 생선성에서 옳다
+  1. `리스트`: 순서가 있고 접근 탐색 삭제 삽입 연산이 가능한 추상 자료형 > 동적 배열 또는 링크드리스트로 구현
+  2. `스택`: 맨 뒤 추가 / 맨 뒤 삭제 / 맨 뒤 접근: 동적배열과 링크드리스트 모두로 구현 가능 > 링크드리스트가 유리
+  3. `큐`: 맨 뒤 추가 / 맨 앞 삭제 / 맨 앞 접근: 동적배열과 링크드리스트 모두로 구현 가능 > 링크드리스트가 유리
+  4. `순환큐` `우선순위큐` `힙` `이진탐색트리`
+
+
+
 # 1. Array (배열)
 
 ## ...
@@ -731,7 +771,7 @@ if __name__ == "__main__":
 임의의 어떤 노드에 대해 그 왼쪽 부분 트리의 모든 데이터 < 임의 노드 데이터 < 오른쪽 부분 트리의 모든 데이터
 
 2. 활용
-데이터를 빠르게 찾을 수 있다
+**데이터를 빠르게 찾을 수 있다**
 이진 탐색 트리는 딕셔너리와 셋을 구현하는데 쓰임
 
 3. 성질
@@ -785,16 +825,17 @@ class BinarySearchTree:
         if self.root_node == None:
             self.root_node = new_node
             return
-
+        
+        # 루트노드를 임시노드로 두고 트리 상단부터 쭉 비교
         temp_node = self.root_node
         while True:
-            if temp_node.data > new_node.data:
+            if temp_node.data > new_node.data:   # 왼쪽으로!
                 if temp_node.left_child is None:
                     temp_node.left_child = new_node
                     new_node.parent = temp_node
                     break
                 temp_node = temp_node.left_child
-            elif temp_node.data < new_node.data:
+            elif temp_node.data < new_node.data:   # 오른쪽으로!
                 if temp_node.right_child is None:
                     temp_node.right_child = new_node
                     new_node.parent = temp_node
@@ -823,13 +864,15 @@ class BinarySearchTree:
             node = node.left_child
         return node
 
+    # 삭제: 주의할 것은 실제 삭제가 아니라 접근하지 못하게 하는 것
     def delete(self, data):
         node = self.search(data)
 
-        # 1. 아예 노드가 없는 경우
+        # 1. 노드 없는 경우
         if node is None:
             return
-        # 2. 말단 노드를 삭제
+        
+        # 2. 말단 노드
         if node.left_child is None and node.right_child is None:
             if node == self.root_node:
                 self.root_node = None
@@ -838,10 +881,12 @@ class BinarySearchTree:
                 node.parent.left_child = None
             elif node.parent.right_child == node:
                 node.parent.right_child = None
-        elif node.left_child is None:
-            if node == self.root_node:
-                self.root_node = node.right_child
-                self.root_node.parent = None
+            
+        # 3. 자식이 하나인 노드
+        elif node.left_child is None:   # 오른쪽 자식노드만 있는 경우
+            if node == self.root_node:   # 루트노드를 삭제하는 거라면
+                self.root_node = node.right_child   # 있는 오른쪽 자식노드를 루트노드로
+                self.root_node.parent = None   # 루트노드는 없애는 것이 아니라 None으로 -> 접근 못하게
                 return
             if node.parent.left_child == node:
                 node.parent.left_child = node.right_child
@@ -849,7 +894,8 @@ class BinarySearchTree:
             elif node.parent.right_child == node:
                 node.parent.right_child = node.right_child
                 node.right_child.parent = node.parent
-        elif node.right_child is None:
+                
+        elif node.right_child is None:   # 왼쪽 자식노드만 있는 경우
             if node == self.root_node:
                 self.root_node = node.left_child
                 self.root_node.parent = None
@@ -860,7 +906,9 @@ class BinarySearchTree:
             elif node.parent.right_child == node:
                 node.parent.right_child = node.left_child
                 node.left_child.parent = node.parent
-        # 4. 자식이 2개인 노드를 삭제
+                
+        # 4. 자식이 2개인 노드: (오른쪽에서 제일 왼쪽 말단 노드와 체인지) 해도 되지만,
+        # 노드의 데이터를 체인지해서 말단 노드를 삭제해도 됨
         else:
             min_node = self.find_min(node.right_child)
             node.data = min_node.data
