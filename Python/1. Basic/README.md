@@ -11,12 +11,6 @@
 
 <br>
 
-<p align="center">
-	<img src="" width="100%">
-</p>
-
-<br>
-
 ## **1. 기본기**
 
 <br>

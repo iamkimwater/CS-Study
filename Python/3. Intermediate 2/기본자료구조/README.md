@@ -13,12 +13,6 @@
 
 <br>
 
-<p align="center">
-	<img src="" width="100%">
-</p>
-
-<br>
-
 ## **1. Array (배열)**
 
 <p>
