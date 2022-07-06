@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/97582839/177557908-350449a0-fa75-48c7-873c-ecf08d1164c1.jpg" width="80%">
+	<img src="https://user-images.githubusercontent.com/97582839/177557908-350449a0-fa75-48c7-873c-ecf08d1164c1.jpg" width="100%">
 </p>
 
 <br>
