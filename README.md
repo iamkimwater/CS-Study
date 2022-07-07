@@ -57,8 +57,6 @@
 
 ---
 
-<br>
-
 <details>
 <summary> README.md Template ✂️ </summary>
 
