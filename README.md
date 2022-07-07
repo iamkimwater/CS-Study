@@ -7,15 +7,27 @@
 
 <br>
 
-## <p align=center>**Python**</p>
+<p align=center>
+	<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="25%">
+</p>
 
 ### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
 ### **2. Intermediate I** [`강의보러가기`](https://zcracker.com/client/project/3)
 ### **3. Intermediate II** [`강의보러가기`](https://zcracker.com/client/project/4)
 ### **4. Advanced** [`강의보러가기`](https://zcracker.com/client/project/6)
 
-## <p align=center>**JavaScript**</p>
+<br>
 
+<p align=center>
+	<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="25%">
+</p>
+
+### **1. Basic** [`강의보러가기`](https://www.codeit.kr/courses/intro-to-programming-in-javascript)
+### **2. Intermediate** [`강의보러가기`](https://www.codeit.kr/courses/javascript-intermediate)
+
+<br>
+
+---
 
 ## **`README.md` Template** ✂️
 <details>
@@ -218,3 +230,5 @@
 <br>
 
 </details>
+
+---
