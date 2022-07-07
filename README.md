@@ -22,6 +22,15 @@
 
 <br>
 
+<details>
+<summary> 강의정보 및 참고사이트 </summary>
+
+정보입력란
+
+</details>
+
+<br>
+
 <p align=left>
 	<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="25%">
 </p>
@@ -30,6 +39,15 @@
 > 강의설명
 ### **2. Intermediate** [`강의보러가기`](https://www.codeit.kr/courses/javascript-intermediate)
 > 강의설명
+
+<br>
+
+<details>
+<summary> 강의정보 및 참고사이트 </summary>
+
+정보입력란
+
+</details>
 
 <br>
 
