@@ -1,4 +1,4 @@
-# <p align=center>**💻 CS-Study**</p>
+# <p align=center>**CS-Study**</p>
 ## <p align=center>**Computer Science 를 공부한 기록을 담은 공간입니다.**</p>
 
 <p align="center">
