@@ -1,11 +1,10 @@
-# <p align=center>**💻 CS-Study 💻**</p>
+# <p align=center>**CS-Study**</p>
 ## <p align=center>**Computer Science 를 공부한 기록을 담은 공간입니다.**</p>
 
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/97582839/177727021-20dec53d-231d-44cd-a8df-d0b28fcabf5d.jpg" width="80%">
 </p>
 
----
 <br>
 
 ## <p align=center>**Python**</p>
