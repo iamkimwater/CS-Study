@@ -8,7 +8,9 @@
 <br>
 
 <p align=left>
-	<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="25%">
+	<a href="https://github.com/iamkimwater/CS-Study/tree/master/Python">
+		<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="25%">
+	</a>
 </p>
 
 ### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
