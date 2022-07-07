@@ -31,6 +31,7 @@
 
 </details>
 
+---
 <br>
 
 <p align=left>
@@ -53,9 +54,8 @@
 
 </details>
 
-<br>
-
 ---
+<br>
 
 <details>
 <summary> README.md Template ✂️ </summary>
