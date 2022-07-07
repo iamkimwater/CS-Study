@@ -14,7 +14,7 @@
 <br>
 
 ## **1. Array (배열)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+##### <div align=right>[**`목차로돌아가기`**](#📌-목-차)</div>
 
 <br>
 
