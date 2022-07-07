@@ -91,7 +91,7 @@ c언어에 존재
 <br>
 
 ## **2. Singly Linked List (단일연결리스트)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
@@ -237,7 +237,7 @@ if __name__ == "__main__":    # 메모리에 흩어져 있는 노드 객체들�
 <br>
 
 ## **3. Doubley Linked List (이중연결리스트)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
@@ -418,7 +418,7 @@ if __name__ == "__main__":
 <br>
 
 ## **4. Hash Table (해쉬테이블)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
@@ -689,7 +689,7 @@ if __name__ == "__main__":
 <br>
 
 ## **5. Heap (힙)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
@@ -776,7 +776,7 @@ if __name__ == "__main__":
 <br>
 
 ## **6. Binary Search Tree (이진탐색트리)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
@@ -1000,7 +1000,7 @@ if __name__ == "__main__":
 <br>
 
 ## **7. Tree (트리)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
@@ -1167,7 +1167,7 @@ if __name__ == "__main__":
 <br>
 
 ## **8. Graph (그래프)**
-#### <div style="text-align:right">[**`목차로돌아가기`**](#📌-목-차)</div>
+#### <p align=right>[**`목차로돌아가기`**](#📌-목-차)</p>
 
 <br>
 
