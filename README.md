@@ -1,6 +1,8 @@
 # <p align=center>**CS-Study**</p>
 
-## **README.md Template** ✂️
+## <p align=center>**Computer Science를 공부한 기록을 담은 공간입니다.**</p>
+
+## **`README.md` Template** ✂️
 <details>
 <summary> 펼쳐보기 </summary>
 
