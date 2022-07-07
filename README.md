@@ -1,9 +1,8 @@
 # <p align=center>**CS-Study**</p>
 
-
-## <p align=center> ✂️ **README.md Template** ✂️ </p>
-
-<br>
+## **README.md Template** ✂️
+<details>
+<summary> 펼쳐보기 </summary>
 
 # **Title**
 
@@ -200,3 +199,5 @@
 ```
 
 <br>
+
+</details>
