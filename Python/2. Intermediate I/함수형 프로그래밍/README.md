@@ -1,11 +1,4 @@
-# <p align=center>**Python**</p>
-
-
-## <p align=center> ✂️ **README.md Template** ✂️ </p>
-
-<br>
-
-# **Title**
+# **Python Intermediate I - 함수형 프로그래밍**
 
 ### 📌 **목 차**
 
