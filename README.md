@@ -29,9 +29,8 @@
 
 ---
 
-## **`README.md` Template** ✂️
 <details>
-<summary> 펼쳐보기 </summary>
+<summary> README.md Template ✂️ </summary>
 
 # **Title**
 
@@ -230,5 +229,3 @@
 <br>
 
 </details>
-
----
