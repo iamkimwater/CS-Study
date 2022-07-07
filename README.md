@@ -7,23 +7,31 @@
 
 <br>
 
-<p align=left>
+<p align=center>
 	<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="25%">
 </p>
+
+<div style="margin-left:38%">
 
 ### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
 ### **2. Intermediate I** [`강의보러가기`](https://zcracker.com/client/project/3)
 ### **3. Intermediate II** [`강의보러가기`](https://zcracker.com/client/project/4)
 ### **4. Advanced** [`강의보러가기`](https://zcracker.com/client/project/6)
 
+</div>
+
 <br>
 
-<p align=left>
+<p align=center>
 	<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="25%">
 </p>
 
+<div style="margin-left:38%">
+
 ### **1. Basic** [`강의보러가기`](https://www.codeit.kr/courses/intro-to-programming-in-javascript)
 ### **2. Intermediate** [`강의보러가기`](https://www.codeit.kr/courses/javascript-intermediate)
+
+</div>
 
 <br>
 
