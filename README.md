@@ -14,7 +14,7 @@
 </p>
 
 ### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
-> 파이썬의 기본에 대해 배웁니다.
+> 프로그래밍을 위한 환경 세팅 및 파이썬의 기본에 대해 배웁니다.
 ### **2. Intermediate I** [`강의보러가기`](https://zcracker.com/client/project/3)
 > 객체지향 프로그래밍과 함수형 프로그래밍에 대해 배웁니다.
 ### **3. Intermediate II** [`강의보러가기`](https://zcracker.com/client/project/4)
