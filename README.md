@@ -25,7 +25,7 @@
 <details>
 <summary> 강의정보 및 참고사이트 </summary>
 
-정보입력란
+강의사이트 : [zcracker 바로가기](https://zcracker.com)
 
 </details>
 
@@ -36,16 +36,16 @@
 </p>
 
 ### **1. Basic** [`강의보러가기`](https://www.codeit.kr/courses/intro-to-programming-in-javascript)
-> 강의설명
+> 웹 분야에서 가장 널리 사용되는 프로그래밍 언어인 자바스크립트의 기본에 대해 배웁니다.
 ### **2. Intermediate** [`강의보러가기`](https://www.codeit.kr/courses/javascript-intermediate)
-> 강의설명
+> 웹의 핵심 언어인 자바스크립트의 여러 심화 문법에 대해 배웁니다.
 
 <br>
 
 <details>
 <summary> 강의정보 및 참고사이트 </summary>
 
-정보입력란
+강의사이트 : [codeit 바로가기](https://www.codeit.kr/)
 
 </details>
 
