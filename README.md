@@ -5,10 +5,9 @@
 ## <p align=center>**Python**</p>
 
 ### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
-
-### **2. Intermediate I**
-### **3. Intermediate II**
-### **4. Advanced**
+### **2. Intermediate I** [`강의보러가기`](https://zcracker.com/client/project/3)
+### **3. Intermediate II** [`강의보러가기`](https://zcracker.com/client/project/4)
+### **4. Advanced** [`강의보러가기`](https://zcracker.com/client/project/6)
 
 ## <p align=center>**JavaScript**</p>
 
