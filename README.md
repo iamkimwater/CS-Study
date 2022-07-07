@@ -34,7 +34,9 @@
 <br>
 
 <p align=left>
-	<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="25%">
+	<a href="https://github.com/iamkimwater/CS-Study/tree/master/JavaScript">
+		<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="25%">
+	</a>
 </p>
 
 ### **1. Basic** [`강의보러가기`](https://www.codeit.kr/courses/intro-to-programming-in-javascript)
