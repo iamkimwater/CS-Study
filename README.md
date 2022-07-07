@@ -2,6 +2,17 @@
 
 ## <p align=center>**Computer Science를 공부한 기록을 담은 공간입니다.**</p>
 
+## <p align=center>**Python**</p>
+
+### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
+
+### **2. Intermediate I**
+### **3. Intermediate II**
+### **4. Advanced**
+
+## <p align=center>**JavaScript**</p>
+
+
 ## **`README.md` Template** ✂️
 <details>
 <summary> 펼쳐보기 </summary>
