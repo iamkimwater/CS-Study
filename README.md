@@ -12,13 +12,13 @@
 </p>
 
 ### **1. Basic** [`강의보러가기`](https://zcracker.com/client/project/1)
-> 강의설명
+> 파이썬의 기본에 대해 배웁니다.
 ### **2. Intermediate I** [`강의보러가기`](https://zcracker.com/client/project/3)
-> 강의설명
+> 객체지향 프로그래밍과 함수형 프로그래밍에 대해 배웁니다.
 ### **3. Intermediate II** [`강의보러가기`](https://zcracker.com/client/project/4)
-> 강의설명
+> 자료구조에 대해 배웁니다.
 ### **4. Advanced** [`강의보러가기`](https://zcracker.com/client/project/6)
-> 강의설명
+> 블로킹/논블로킹과 동시성에 대해 배웁니다.
 
 <br>
 
