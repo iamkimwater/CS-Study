@@ -31,7 +31,6 @@
 
 </details>
 
----
 <br>
 
 <p align=left>
@@ -54,7 +53,10 @@
 
 </details>
 
+<br>
+
 ---
+
 <br>
 
 <details>
