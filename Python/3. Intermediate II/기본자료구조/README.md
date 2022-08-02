@@ -1171,9 +1171,71 @@ if __name__ == "__main__":
 
 <br>
 
-<p>
-.
+## <p align=center>**Example 1**</p>
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/97582839/182307224-ef41ef84-a07d-4701-ba37-5c02dfde026d.PNG" width="70%">
 </p>
+
+<br>
+
+### 1. Graph 를 어떻게 구현해야 할까?
+
+1. 노드를 저장해 보자
+	```
+	딕셔너리 선언 : Nodes = { 서울역: Node1, 선릉역: Node2, 강남역: Node3, ... }
+	```
+2. 엣지(연결 상태) 도 저장해 보자
+	```
+	Node1, 2, 3, ... : 자신과 연결된 다른 Node에 대한 정보를 가지고 있음
+	```
+- 이게 바로 인접리스트 방식 !!!
+
+### 2. 사고 과정
+
+1. 각 노드를 숫자로 생각
+	```
+	서울역 = 1
+	선릉역 = 2
+	강남역 = 3
+	```
+2. 엣지를 어떻게 표현할까
+	- 인접행렬 방식
+
+	- 인접리스트 방식
+		<p align="left">
+			<img src="https://user-images.githubusercontent.com/97582839/182312610-429bcbdb-fab9-4483-bde6-647197ba7613.PNG" width="70%">
+		</p>
+
+		```
+		노드의 연결 상태를 배열로 가지고 있음
+
+			1 -> [2]
+			2 -> [1, 3]
+			3 -> [2]
+
+		노드의 번호를 index로 생각하기
+
+			index 1 -> [2]
+			index 2 -> [1, 3]
+			index 3 -> [2]
+
+		index 0 은 [None] 으로 처리
+		```
+		```python
+		# 인접리스트 방식 그래프
+		graph = [ None, [2], [1, 3], [2] ]
+		```
+
+
+
+
+
+
+
+
+
+
+<br>
 
 ---
 

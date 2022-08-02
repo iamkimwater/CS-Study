@@ -2,6 +2,7 @@
 from user import Influencer, Advertiser
 
 # 정의파트
+# 회원가입 함수 정의
 def sign_up():
     user_id = input("아이디를 입력하세요: ")
     user_password = input("비밀번호를 입력하세요: ")
@@ -12,6 +13,7 @@ def sign_up():
     user_file_writer.write(user_id + " " + user_password + " " + user_nickname + " " + user_type + "\n")
     user_file_writer.close()
 
+# 로그인 함수 정의
 def login():
     user_id = input("아이디를 입력하세요: ")
     user_password = input("비밀번호를 입력하세요: ")
@@ -37,7 +39,7 @@ def login():
     return me
 
 
-
+# 실행파트
 if __name__ == "__main__":
     me = None
 

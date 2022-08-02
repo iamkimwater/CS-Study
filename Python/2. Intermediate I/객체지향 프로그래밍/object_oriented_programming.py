@@ -249,3 +249,4 @@ print(user3.get_user_id())
 print(user3.get_user_password())
 print(user3.get_is_solo())
 """
+
