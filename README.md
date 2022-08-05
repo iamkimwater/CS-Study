@@ -13,13 +13,17 @@
 	</a>
 </p>
 
-### **1. Basic** <!-- >[`강의보러가기`](https://zcracker.com/client/project/1)-->
+### **1. Basic** 
+<!-- >[`강의보러가기`](https://zcracker.com/client/project/1)-->
 > 프로그래밍을 위한 환경 세팅 및 파이썬의 기본에 대해 배웁니다.
-### **2. Intermediate I** <!-- >[`강의보러가기`](https://zcracker.com/client/project/3)-->
+### **2. Intermediate I** 
+<!-- >[`강의보러가기`](https://zcracker.com/client/project/3)-->
 > 객체지향 프로그래밍과 함수형 프로그래밍에 대해 배웁니다.
-### **3. Intermediate II** <!-- >[`강의보러가기`](https://zcracker.com/client/project/4)-->
+### **3. Intermediate II** 
+<!-- >[`강의보러가기`](https://zcracker.com/client/project/4)-->
 > 자료구조에 대해 배웁니다.
-### **4. Advanced** <!-- >[`강의보러가기`](https://zcracker.com/client/project/6)-->
+### **4. Advanced** 
+<!-- >[`강의보러가기`](https://zcracker.com/client/project/6)-->
 > 블로킹/논블로킹과 동시성에 대해 배웁니다.
 
 <br>
@@ -39,9 +43,11 @@
 	</a>
 </p>
 
-### **1. Basic** <!-- >[`강의보러가기`](https://www.codeit.kr/courses/intro-to-programming-in-javascript)-->
+### **1. Basic** 
+<!-- >[`강의보러가기`](https://www.codeit.kr/courses/intro-to-programming-in-javascript)-->
 > 웹 분야에서 가장 널리 사용되는 프로그래밍 언어인 자바스크립트의 기본에 대해 배웁니다.
-### **2. Intermediate** <!-- >[`강의보러가기`](https://www.codeit.kr/courses/javascript-intermediate)-->
+### **2. Intermediate** 
+<!-- >[`강의보러가기`](https://www.codeit.kr/courses/javascript-intermediate)-->
 > 웹의 핵심 언어인 자바스크립트의 여러 심화 문법에 대해 배웁니다.
 
 <br>
