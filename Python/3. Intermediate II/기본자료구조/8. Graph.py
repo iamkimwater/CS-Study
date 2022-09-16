@@ -51,6 +51,8 @@ def dfs(graph, visited, current_node):
         dfs(graph, visited, i)
 
 
+
+
 def bfs(graph, visited, start_node):
     queue = deque()
     queue.append(start_node)
@@ -66,8 +68,6 @@ def bfs(graph, visited, start_node):
                 continue
             queue.append(i)
             visited[i] = True
-
-
 # visited = [False] * 4
 # dfs(graph, visited, 1)
 # visited = [False] * 4
