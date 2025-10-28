@@ -37,15 +37,6 @@
 
 <br>
 
-<details>
-<summary> 강의정보 및 참고사이트 </summary>
-
-강의사이트 : [codeit 바로가기](https://www.codeit.kr/)
-
-</details>
-
-<br>
-
 <!-- >
 
 <details>
