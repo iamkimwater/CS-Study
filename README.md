@@ -24,15 +24,6 @@
 
 <br>
 
-<details>
-<summary> 강의정보 및 참고사이트 </summary>
-
-강의사이트 : [zcracker 바로가기](https://zcracker.com)
-
-</details>
-
-<br>
-
 <p align=left>
 	<a href="https://github.com/iamkimwater/CS-Study/tree/master/JavaScript">
 		<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="25%">
